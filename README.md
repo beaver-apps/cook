@@ -107,7 +107,9 @@ Clearing your browser's site data erases it all, so a backup now and then is a g
 
 ## Versions
 
-Every update has a name. The first one is **v0.1 "First Nibble"**: the beaver moves into his kitchen. The app shows
+Every update has a name. The first one was **v0.1 "First Nibble"**: the beaver moves into his kitchen. The newest is
+**v0.1.1 "No Oysters"**: your household's diet and allergies now hold everywhere I suggest food, not only when I plan
+the week (Swap, a meal's ideas, Find a recipe and the Menu). The app shows
 all the versions and their notes under **Settings**, and the full list is in
 `src/core/releases.js`.
 
