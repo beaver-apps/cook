@@ -1,0 +1,17 @@
+{
+  "name": "Beaver Cook",
+  "short_name": "Beaver Cook",
+  "description": "A pixel beaver in his kitchen: what to cook tonight from what's in your pantry, with free recipes and cook-along timers.",
+  "id": "/cook/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#2d1e2f",
+  "theme_color": "#2d1e2f",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

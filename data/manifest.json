@@ -1,0 +1,67 @@
+{
+  "version": "90e2438fac05",
+  "count": 6797,
+  "shards": [
+    {
+      "file": "recipes-0-3131658631.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-1-a78a8c0b2b.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-2-66e8033287.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-3-ca843e79e7.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-4-d1e6daafba.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-5-28315d10e5.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-6-767bba483a.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-7-2e99405ac5.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-8-88ac3a8063.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-9-ef5c9f30da.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-10-4c43449409.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-11-1363b20429.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-12-9f30ff5334.json",
+      "count": 500
+    },
+    {
+      "file": "recipes-13-e664f355e8.json",
+      "count": 297
+    }
+  ],
+  "match": "match-e39be153d8.bin",
+  "vocab": "vocab-ef84be8679.json",
+  "credits": "credits-cb86bdbf8d.json",
+  "sample": "sample-5c95527847.json",
+  "meta": "meta-dc52162061.json"
+}

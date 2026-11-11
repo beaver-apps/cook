@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-FGL6lURQhTH4DmMv1rLr53rJ6MKiJSXvIEM4Y0we10g='; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'; require-trusted-types-for 'script'; trusted-types beaver-cook beaver-cook-html">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Beaver Cook</title>
+<meta name="description" content="A pixel beaver in his kitchen: what to cook tonight from what's in your pantry, with free recipes and cook-along timers.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#dbc9b4">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Beaver Cook">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<script>
+  /* theme before first paint. Our own attribute: the Claude artifact viewer sets data-theme on the page itself */
+  (function () {
+    var t = 'auto';
+    try { t = JSON.parse(localStorage.getItem('cook-settings') || '{}').theme || 'auto'; } catch (e) {}
+    var dark = t === 'dark' || (t === 'auto' && window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches);
+    document.documentElement.dataset.appTheme = dark ? 'dark' : 'light';
+    /* the top of the screen is the page colour (statusbar.js keeps it so) */
+    var m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = dark ? '#2d1e2f' : '#dbc9b4';
+  })();
+</script>
+  <script type="module" crossorigin src="/cook/assets/index-DiaF2eYs.js"></script>
+  <link rel="stylesheet" crossorigin href="/cook/assets/index-DblChhmb.css">
+</head>
+<body>
+<div id="root"></div>
+</body>
+</html>
